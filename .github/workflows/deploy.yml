@@ -58,4 +58,4 @@ jobs:
             
             # 2. 새 jar 파일 실행
             cd /home/ubuntu/app
-            nohup java -jar *.jar > app.log 2>&1 &
+            nohup java -jar *.jar --spring.config.location=classpath:/application.properties,file:/home/ubuntu/app/application-secret.properties > app.log 2>&1 &

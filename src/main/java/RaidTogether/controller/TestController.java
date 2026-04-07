@@ -14,4 +14,9 @@ public class TestController {
     public String test(){
         return "pipe line works => " + secret;
     }
+
+    @RequestMapping("/oAuthTest")
+    public String oAuthTest(){
+        return "OAuth => " + secret;
+    }
 }

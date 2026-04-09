@@ -6,7 +6,7 @@
         SELECT * FROM users WHERE id = #{id}
     </select>
 
-    <insert id="createuser" parameterType="UserDto">
-        insert into users
-    </insert>
+<!--    <insert id="createuser" parameterType="UserDto">-->
+<!--        insert into users-->
+<!--    </insert>-->
 </mapper>
